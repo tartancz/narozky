@@ -1,0 +1,17 @@
+.cherry{
+    width: 3vh;
+    height: 2vw;
+}
+
+.cherryDroppable{
+    position: relative;
+    z-index: 999;
+    display: inline;
+    height: 3vw;
+
+}
+
+.invisBlock{
+    pointer-events: none;
+}
+

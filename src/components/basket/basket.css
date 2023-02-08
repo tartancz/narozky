@@ -1,0 +1,10 @@
+.basketWrapper{
+    position: relative;
+    z-index: 999;
+    top: 75vh;
+    left: -30vh;
+}
+
+.basket{
+    height: 20vh;
+}
