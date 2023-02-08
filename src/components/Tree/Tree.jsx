@@ -46,6 +46,6 @@ export default function Tree() {
       </div>
     );
   } else {
-    <h1>Vsechno nejlepsi</h1>;
+    return <h1>Vsechno nejlepsi</h1>;
   }
 }
