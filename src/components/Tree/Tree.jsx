@@ -38,6 +38,7 @@ export default function Tree() {
           </Droppable>
         </div>
         <div>
+          <h1>presun vsechny tresne do Kosiku</h1>
           <h1>
             tresne zbyvajici utrhnout:{" "}
             {cherrys.filter((e) => e["collected"] == false).length}
