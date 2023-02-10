@@ -4,6 +4,7 @@ import Cherry from "../Cherry/Cherry";
 import Basket from "../basket/Basket";
 import "./tree.css";
 import { Draggable, Droppable } from "react-drag-and-drop";
+import Blahoprani from "../Blahoprani/blahoprani";
 
 export default function Tree() {
   const [cherrys, SetCherrys] = useState(generateCherrys());
@@ -18,7 +19,6 @@ export default function Tree() {
     return cherrys_list;
   }
   function handleDrop(e) {
-    console.log(cherrys, e);
     let id = e["cherry"];
     let tempCherry = [...cherrys];
     tempCherry[id]["collected"] = true;
@@ -46,6 +46,6 @@ export default function Tree() {
       </div>
     );
   } else {
-    return <h1>Vsechno nejlepsi</h1>;
+    return <Blahoprani></Blahoprani>
   }
 }
