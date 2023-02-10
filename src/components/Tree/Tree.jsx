@@ -4,7 +4,7 @@ import Cherry from "../Cherry/Cherry";
 import Basket from "../basket/Basket";
 import "./tree.css";
 import { Draggable, Droppable } from "react-drag-and-drop";
-import Blahoprani from "../Blahoprani/blahoprani";
+import Blahoprani from "../Blahoprani/Blahoprani";
 
 export default function Tree() {
   const [cherrys, SetCherrys] = useState(generateCherrys());
